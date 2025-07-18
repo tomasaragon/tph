@@ -1,7 +1,7 @@
 # TEAM Public Health Technical Notes
 
 
-This site has technical notes for [TEAM Public Health](https://teampublichealth.substack.com/)
+This site has technical notes for [TEAM Public Health](https://teampublichealth.substack.com/).
 
 ## Notes
 
