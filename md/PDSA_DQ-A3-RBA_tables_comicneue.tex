@@ -1,0 +1,177 @@
+\documentclass[landscape]{article}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{fontspec}
+\usepackage{unicode-math} % For setting math fonts
+\setmainfont{Comic Neue} % Compile with lualatex 
+\setmathfont{Latin Modern Math} 
+\usepackage[table,dvipsnames]{xcolor}
+\usepackage[skip=5pt]{caption}
+\definecolor{annals}{RGB}{240,251,247}
+\begin{document}
+\thispagestyle{empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%% PDSA Design Thinking and Lean Startup
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}
+  \centering
+  \rowcolors{1}{annals!0}{annals!100}
+  \setcounter{table}{0} % Set ngives 3
+  \caption{PDSA problem solving with comparison to design thinking and lean startup}
+%\begin{tabular}{@{}llll@{}}
+\begin{tabular}{lclll}
+\toprule
+%\textbf{Objectives}&    &\multicolumn{2}{c}{Alternatives}\\
+%\cmidrule{3-4}
+  PDSA &$n$&PDSA Core&Design Thinking&Lean Startup\\
+  \midrule
+  Plan &1&Find (problem)      &Empathize&$\downarrow$\\
+                    &2&Decide/Define (problem)&Define&$\downarrow$\\
+  &3&Diagnose/Discover (root cause)&Ideate&\\
+       &4&Decide/Design (countermeasure)&$\downarrow$&(Ideas)\\
+       &5&Predict (effectiveness)&$\downarrow$&$\downarrow$\\
+%\cmidrule{1-1}
+  Do   &&Experiment (hypothesis)&Prototype&Build (minimum viable product)\\
+  Study &&Evaluate (measure prediction error)&Test&Measure (data)\\
+%\cmidrule{1-1}
+  &&Learn (close prediction error)&(learn)&Learn (``validated learning'')\\
+%\cmidrule{1-1}
+  Act  &&Improve (performance)&(improve)&(improve)\\
+\bottomrule
+\end{tabular}   
+\end{table}
+
+
+\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PDSA decision making using decision quality (DQ) requirements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   
+\begin{table}
+  \centering
+  \rowcolors{1}{annals!0}{annals!100}
+%  \setcounter{table}{0} % Set ngives 3
+  \caption{PDSA decision making using decision quality (DQ) requirements}
+%\begin{tabular}{@{}llll@{}}
+\begin{tabular}{lclll}
+\toprule
+%\textbf{Objectives}&    &\multicolumn{2}{c}{Alternatives}\\
+%\cmidrule{3-4}
+             PDSA&$n$&Requirements&Key questions&Description\\
+\midrule
+  Plan &1&Frame&What are we really deciding? &objectives,
+                                               perspectives, scope,\\
+  &&&&premortem, backcasting\\
+       &2&Values&What do we need/want? &values, possible future
+                                         states,\\
+  &&&&must-haves, want-to-haves, trade-offs,\\
+       &3&Alternatives&What can we do? &creative and doable
+                                         alternatives,\\
+  &&&&activities to start, activities to stop\\
+       &4&Information&What do we need to know? &reliable, relevant information\\
+       &5&Reasoning &Are we thinking straight? &sound reasoning and
+                                                 reflection,\\
+  &&&&multi-objective vs.\ multi-attribute\\
+       &6&Commitment&Will we do it? &commitment to action\\
+%\cmidrule{1-1}
+  Do   &&Action plan&How will we implement plan?&predict/experiment\\
+%\cmidrule{1-1}
+  Study&&Evaluation&How will we measure effectiveness?&learn\\
+%\cmidrule{1-1}
+  Act  &&Improvement&Will we adopt, adapt, or abandon?&improve\\
+\bottomrule
+\end{tabular}   
+\end{table}
+
+
+
+
+\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PDSA Lean A3 Thinking/Resporting 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}
+  \centering
+  \rowcolors{1}{annals!0}{annals!100}
+%  \setcounter{table}{0} % Set ngives 3
+  \caption{PDSA Lean A3 Thinking/Reporting}
+%\begin{tabular}{@{}llll@{}}
+\begin{tabular}{lclll}
+\toprule
+%\textbf{Objectives}&    &\multicolumn{2}{c}{Alternatives}\\
+%\cmidrule{3-4}
+             PDSA&$n$&Components&Key questions (order can vary)&Notes\\
+\midrule
+  Plan &1&Background&What is situation? Why does it matter? What is scope?&context\\
+       &2&Problem statement&What is the need/gap? (not causes or solutions)&find/decide\\
+       &3&Current condition&What is the current state?&context\\
+       &4&Objective and Key Results&What are goals and measures of
+                                     progress/success?&future states\\
+       &5&Analysis&What are gaps, root causes, and theory of change?&reasoning\\
+       &6&Countermeasures&How will CMs activate theory of change (strategies)?&decide/predict\\
+%\cmidrule{1-1}
+  Do   &&Action plan&How will we implement plan?&experiment\\
+%\cmidrule{1-1}
+  Study&&Evaluation&How will we measure effectiveness?&learn\\
+%\cmidrule{1-1}
+  Act  &&Improvement&Will we adopt, adapt, or abandon?&improve\\
+\bottomrule
+\end{tabular}   
+\end{table}
+
+
+\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PDSA Results-Based Accountability (RBA) 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}
+  \centering
+  \rowcolors{1}{annals!0}{annals!100}
+%  \setcounter{table}{0} % Set ngives 3
+  \caption{PDSA Results-Based Accountability (RBA)}
+%\begin{tabular}{@{}lll@{}}
+\begin{tabular}{lcll}
+\toprule
+%\textbf{Objectives}&    &\multicolumn{2}{c}{Alternatives}\\
+%\cmidrule{3-4}
+             PDSA&$n$&RBA questions&Notes\\
+\midrule
+  Plan &1&What is the ``end''? &Objectives (goals)\\
+       &2&How are we doing? &Key Results, incl.\ trends and forecasts\\
+       &3&What is the Story Behind the Curve of the baseline?&Root causes\\
+       &4&Who are partners who have a role to play in Turning the
+         Curve?&``Collective Impact''\\
+       &5&What works to Turn the Curve?&Theory of Change = Strategies\\
+       &6&What do you propose to do to Turn the Curve?&Countermeasures\\
+%\cmidrule{1-1}
+  Do   &&Action plan&How will we implement plan?\\
+%\cmidrule{1-1}
+  Study&&Evaluation&How will we measure effectiveness?\\
+%\cmidrule{1-1}
+  Act &&Improvement&Will we adopt, adapt, or abandon?\\
+\bottomrule
+\end{tabular}   
+\end{table}
+\bigskip
+
+
+
+\end{document}
+
+
+
+
+
+%% pdfcrop latex_comicneue_table1_v2.pdf
+%%%% Imagemagick conversion
+%% magick -density 600 latex_comicneue_table1_v2-crop.pdf -quality 100 latex_comicneue_table1_v2-crop.png
+
+
+% Local Variables:
+% TeX-engine: luatex
+% End:
