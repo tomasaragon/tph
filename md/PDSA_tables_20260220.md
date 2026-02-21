@@ -1,3 +1,7 @@
+# PDSA tables
+
+## PDSA core and comparison to Design thinking and Lean startup
+
 | PDSA  | *n* | PDSA Core                           | Design Thinking | Lean Startup                   |
 |:------|:---:|:------------------------------------|:----------------|:-------------------------------|
 | Plan  |  1  | Find (problem)                      | Empathize       | ↓                              |
@@ -10,9 +14,9 @@
 |       |     | Learn (close prediction error)      | (learn)         | Learn (“validated learning”)   |
 | Act   |     | Improve (performance)               | (improve)       | (improve)                      |
 
-PDSA core and comparison to Design thinking and Lean startup
 
 
+## PDSA decision making using decision quality (DQ) requirements
 
 | PDSA  | *n* | Requirements | Key questions                      | Description                             |
 |:------|:---:|:-------------|:-----------------------------------|:----------------------------------------|
@@ -30,9 +34,9 @@ PDSA core and comparison to Design thinking and Lean startup
 | Study |     | Evaluation   | How will we measure effectiveness? | learn                                   |
 | Act   |     | Improvement  | Will we adopt, adapt, or abandon?  | improve                                 |
 
-PDSA decision making using decision quality (DQ) requirements
 
 
+## PDSA Lean A3 Thinking/Reporting
 
 | PDSA  | *n* | Components                | Key questions (order can vary)                        | Notes          |
 |:------|:---:|:--------------------------|:------------------------------------------------------|:---------------|
@@ -46,9 +50,9 @@ PDSA decision making using decision quality (DQ) requirements
 | Study |     | Evaluation                | How will we measure effectiveness?                    | learn          |
 | Act   |     | Improvement               | Will we adopt, adapt, or abandon?                     | improve        |
 
-PDSA Lean A3 Thinking/Reporting
 
 
+## PDSA Results-Based Accountability (RBA)
 
 | PDSA  | *n* | RBA questions                                                  | Notes                                       |
 |:------|:---:|:---------------------------------------------------------------|:--------------------------------------------|
@@ -62,4 +66,3 @@ PDSA Lean A3 Thinking/Reporting
 | Study |     | Evaluation                                                     | How will we measure effectiveness?          |
 | Act   |     | Improvement                                                    | Will we adopt, adapt, or abandon?           |
 
-PDSA Results-Based Accountability (RBA)
