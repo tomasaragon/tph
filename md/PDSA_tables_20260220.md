@@ -1,6 +1,6 @@
 # PDSA tables
 
-## PDSA core and comparison to Design thinking and Lean startup
+## PDSA problem solving with comparison to design thinking and lean startup
 
 | PDSA  | *n* | PDSA Core                           | Design Thinking | Lean Startup                   |
 |:------|:---:|:------------------------------------|:----------------|:-------------------------------|
